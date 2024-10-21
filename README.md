@@ -462,7 +462,7 @@ ALGORITHM DESCRIPTION:
 In the rail fence cipher, the plaintext is written downwards and diagonally on successive "rails" of an imaginary fence, then moving up when we reach the bottom rail. When we reach the top rail, the message is written downwards again until the whole plaintext is written out. The message is then read off in rows.
 
 ## PROGRAM:
-
+```
 PROGRAM:
 #include<stdio.h> #include<string.h> #include<stdlib.h> main()
 {
@@ -509,10 +509,10 @@ if(code[i][j]!=0) printf("%c",code[i][j]);
 }
 printf("\n");
 }
+```
 ## OUTPUT:
-OUTPUT:
-Enter a Secret Message wearediscovered
-Enter number of rails 2
-waeicvrderdsoee
+![Screenshot 2024-10-21 094741](https://github.com/user-attachments/assets/5f69aba0-2da1-4385-8238-4176ffcb7d02)
+
+
 ## RESULT:
 The program is executed successfully
