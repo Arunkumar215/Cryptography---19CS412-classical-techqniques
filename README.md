@@ -429,13 +429,8 @@ char message[]= "Thisisasecretmessage.";//Replace withyourmessage
 //Decrypt themessage backtotheoriginal vigenereDecrypt(message,key); printf("DecryptedMessage:%s\n",message); Return 0;
 
 ## OUTPUT:
-OUTPUT :
+![Screenshot 2024-10-21 093621](https://github.com/user-attachments/assets/5a4a70a6-8b48-4f05-885a-bc31ee6be8bb)
 
-Simulating Vigenere Cipher
-
-
-Input Message : SecurityLaboratory
-Encrypted Message : NMIYEMKCNIQVVROWXC Decrypted Message : SECURITYLABORATORY
 ## RESULT:
 The program is executed successfully
 
